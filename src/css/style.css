@@ -1,0 +1,316 @@
+/*GLOBAL------------------  */
+
+body {
+    font-size: 18px;
+    font-family: Open Arial, Helvetica, sans-serif;
+    line-height: 24px;
+    margin: 0;
+    padding: 0;
+}
+
+.content-wrapper {
+    max-width: 1200px;
+    margin: auto;
+}
+
+@media (max-width: 1200px) {
+    .content-wrapper {
+        width: 90%;
+    }
+}
+/*TYPOGRAFY--------------  */
+
+h1 {
+    font-size: 56px;
+    line-height: normal;
+    font-weight: 300;
+    margin: 0;
+    margin-bottom: 88px;
+    padding: 0;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 400;
+    color: #555559;
+    line-height: normal;
+    margin: 0;
+    margin-bottom: 40px;
+    padding: 0;
+}
+span {
+    font-size: 18px;
+    line-height: 24px;
+    color: #656568;
+    font-weight: 100;
+    margin: 0;
+    padding: 0;
+}
+
+/*HEADER--------------  */
+
+.header {
+    text-align: center;
+    margin-bottom: 4px;
+    position: relative;
+}
+
+.header .background {
+     background: url(../images/bg_header.jpg) 0 0 no-repeat; 
+     width: 100%;
+     height: 480px;
+     background-size: cover;
+}
+
+.header .background a {
+    text-decoration: none;
+    color: #fff;
+    position: absolute;
+    top:15px;
+    right: 20px;
+    font-style: italic;
+}
+.header .background a::before {
+    content: url(../images/insta.png);
+    height: 20px;
+    width: 20px;
+    margin-right: 5px;
+}
+
+.header .main-menu {
+    padding: 36px 0;
+    box-shadow:  0 0 10px rgba(0,0,0,0.3);
+}
+
+.header .main-menu .menu-list {
+    list-style: none;
+
+}
+
+.header .main-menu .menu-item {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 40px;
+}
+
+.header .main-menu .menu-item a {
+    display: block;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #2e2e2e;
+    font-size: 20px;
+}
+
+.header .main-menu .menu-item a:hover {
+    color: grey;
+}
+
+/*MAIN  */
+
+.main-content {}
+
+.main-content .about-hot-dogs {
+    text-align: center;
+    background-color: #fbfafa;
+    padding: 110px 340px;
+   
+}
+
+.main-content .about-hot-dogs h1::before {
+    content: url(../images/logo_hot-dog.png);
+    width: 92px;
+    height: 92px;
+    display: block;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.main-content .about-hot-dogs .button {
+    height: 60px;
+    width: auto;
+    padding: 0 34px;
+    background-color: #286782;
+    color: #fff;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    white-space: nowrap;
+}
+
+/*BEEF HOTDOGS-----------  */
+
+.beef-hot-dogs {
+    box-sizing: border-box;
+    width: 100%;
+    height: 575px;
+    position: relative;
+}
+
+.beef-hot-dogs .text-about  {
+    width: 50%;
+    height: 100%;
+    padding: 225px 0 0 140px;
+    display: inline-block;
+    box-sizing: border-box;
+    position: absolute;
+    top:0;
+    left: 0;
+}
+.beef-hot-dogs .text-about article {
+    max-width: 574px;
+    margin: 0;
+    padding: 0;
+}
+.beef-hot-dogs .text-about article h3::before {
+    content: ' ';
+    position: absolute;
+    top: 235px;
+    left: 84px;
+    display: inline-block;
+    vertical-align: middle;
+    height: 3px;
+    width: 30px;
+    background-color: #286782;
+}
+
+
+.beef-hot-dogs .photo {
+    width: 50%;
+    height: 100%;
+    display: inline-block;
+    position: absolute;
+    top:0;
+    right: 0;
+}
+
+.beef-hot-dogs .photo.beef{
+    background: url(../images/bg_beef-hot-dog.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+/*VEGAN HOTDOGS-----------  */
+
+.vegan-hot-dogs {
+    box-sizing: border-box;
+    width: 100%;
+    height: 575px;
+    position: relative;
+}
+
+.vegan-hot-dogs .text-about  {
+    width: 50%;
+    height: 100%;
+    padding: 225px 0 0 140px;
+    display: inline-block;
+    box-sizing: border-box;
+    position: absolute;
+    top:0;
+    right: 0;
+}
+.vegan-hot-dogs .text-about article {
+    max-width: 574px;
+    margin: 0;
+    padding: 0;
+}
+
+.vegan-hot-dogs .text-about article h3::before {
+    content: ' ';
+    position: absolute;
+    top: 235px;
+    left: 84px;
+    display: inline-block;
+    vertical-align: middle;
+    height: 3px;
+    width: 30px;
+    background-color: #286782;
+}
+.vegan-hot-dogs .photo {
+    width: 50%;
+    height: 100%;
+    display: inline-block;
+    position: absolute;
+    top:0;
+    left: 0;
+}
+
+.vegan-hot-dogs .photo.vegan{
+    background: url(../images/bg_vegan-hot-dog.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+/*VEGETARIAN---------------  */
+
+.vegetarian-hot-dogs {
+    box-sizing: border-box;
+    width: 100%;
+    height: 575px;
+    position: relative;
+}
+
+.vegetarian-hot-dogs .text-about  {
+    width: 50%;
+    height: 100%;
+    padding: 225px 0 0 140px;
+    display: inline-block;
+    box-sizing: border-box;
+    position: absolute;
+    top:0;
+    left: 0;
+}
+.vegetarian-hot-dogs .text-about article {
+    max-width: 574px;
+    margin: 0;
+    padding: 0;
+}
+.vegetarian-hot-dogs .text-about article h3::before {
+    content: ' ';
+    position: absolute;
+    top: 235px;
+    left: 84px;
+    display: inline-block;
+    vertical-align: middle;
+    height: 3px;
+    width: 30px;
+    background-color: #286782;
+}
+
+.vegetarian-hot-dogs .photo {
+    width: 50%;
+    height: 100%;
+    display: inline-block;
+    position: absolute;
+    top:0;
+    right: 0;
+}
+
+.vegetarian-hot-dogs .photo.vegetarian{
+    background: url(../images/bg_vegetarian-hot-dog.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+/*FOOTER--------------  */
+.footer {
+    height: 75px;
+    
+}
+
+.footer span{
+    display: inline-block;
+    font-size: 14px;
+    line-height: 75px;
+    margin-top:15px;
+}
+
+.footer .our-position {
+    float: right;
+    list-style: none;
+    display: inline-block;
+}
+
+.footer .our-position li {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 14px;
+    line-height: 75px;
+}
+

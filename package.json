@@ -1,0 +1,19 @@
+{
+	"name": "hotdogs",
+	"description": "",
+	"author": "Diana Ostrenko",
+	"version": "1.1.0",
+	"dependencies": {
+
+	},
+	"devDependencies": {
+		"grunt": "1.0.1",
+		"grunt-contrib-csslint": "2.0.0",
+		"grunt-contrib-watch": "1.0.0"
+	},
+	"scripts": {
+		"test": "echo 'Without tests'",
+		"lint": "grunt lint --force",
+		"start": "grunt start"
+	}
+}
